@@ -20,10 +20,52 @@ h1,h2 {
     letter-spacing: 4px;
     font-weight: 100;
     font-style: normal;
-    color: rgb(35, 35, 35);
+    color:  rgb(35, 35, 35));
 }
 
 #logo{
     float: inline-start;
-    font-size: 300%;
+    font-size: 280%;
+}
+
+/* Navigation Elements */
+#menu
+{
+    font-size: 120%;
+    letter-spacing: 4px;
+    color: rgb(35, 35, 35);
+    }
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid rgb(35, 35, 35);
+}
+
+.active{
+    border-bottom: 1px solid rgb(35, 35, 35);
+}
+  /*hero-Image */
+
+#hero-image {
+    height: 600px;
+    width:100%;
+    background-image: url(../images/istockphoto-1134934443-612x612.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
