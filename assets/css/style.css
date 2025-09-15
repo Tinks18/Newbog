@@ -20,7 +20,7 @@ h1,h2 {
     letter-spacing: 4px;
     font-weight: 100;
     font-style: normal;
-    color:  rgb(35, 35, 35));
+    color:  rgb(35, 35, 35);
 }
 
 #logo{
@@ -31,7 +31,7 @@ h1,h2 {
 /* Navigation Elements */
 #menu
 {
-    font-size: 120%;
+    font-size: 130%;
     letter-spacing: 4px;
     color: rgb(35, 35, 35);
     }
@@ -64,7 +64,7 @@ h1,h2 {
     height: 600px;
     width:100%;
     background-image: url(../images/istockphoto-1134934443-612x612.jpg);
-    background-position: auto;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
