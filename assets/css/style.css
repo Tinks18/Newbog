@@ -26,6 +26,9 @@ h1,h2 {
 #logo{
     float: inline-start;
     font-size: 280%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 1px;
 }
 
 /* Navigation Elements */
@@ -68,4 +71,33 @@ h1,h2 {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* Footer */
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(35, 35, 35);
 }
